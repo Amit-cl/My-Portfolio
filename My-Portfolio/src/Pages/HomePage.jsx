@@ -26,7 +26,7 @@ const HomePage = () => {
 
       <div className="chat-bubble">
         <span>Chat with us</span>
-        <img src={profile} alt="Profile" className="chat-avatar" />
+        <img src="" alt="Profile" className="chat-avatar" />
       </div>
     </section>
     </>

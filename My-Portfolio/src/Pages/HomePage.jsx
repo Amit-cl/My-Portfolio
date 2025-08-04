@@ -1,35 +1,85 @@
 import React from 'react'
-import './HomePage.css' 
-
+import './HomePage.css'
+import R_logo from "./../assets/images/R_logo.svg?react"
+import Sun_svg from "./../assets/icons/Sun_svg.svg?react"
+import Moon_svg from "./../assets/icons/Moon_svg.svg?react"
+import Phone_svg from "./../assets/icons/Phone_svg.svg?react"
+import Whatsapp_svg from "./../assets/icons/Whatsapp_svg.svg?react"
+import A_Logo_svg from "./../assets/images/A_Logo_svg.svg?react"
+import Arrow_svg from "./../assets/icons/Arrow_svg.svg?react"
+import Linkedin_svg  from "./../assets/icons/linkedin_svg.svg?react"
+import X_svg from "./../assets/icons/X_svg.svg?react"
+import InstagramIcon from "./../assets/icons/InstagramIcon.svg?react"
+import Email_svg from "./../assets/icons/Email_svg.svg?react"
 const HomePage = () => {
   return (
     <>
-      <div className="social-icons">
-      <a href="#"><i className="fab fa-linkedin"></i></a>
-      <a href="#"><i className="fab fa-twitter"></i></a>
-      <a href="#"><i className="fab fa-instagram"></i></a>
-      <a href="#"><i className="fas fa-envelope"></i></a>
-      <a href="#"><i className="fab fa-github"></i></a>
-    </div>
-      <section className="hero">
-      <img src="/logo.svg" alt="Logo" className="logo" />
-
-      <div className="hero-text">
-        <h1>Anurag Singh</h1>
-        <p className="subtitle">MERN Stack Developer</p>
-
-        <div className="hero-buttons">
-          <button className="btn about">About Me →</button>
-          <button className="btn works">Latest Works</button>
+      <section className="flex flex-col justify-between h-screen">
+    <header className="z-10 pointer-events-none flex items-center justify-between w-full px-4 mt-4 max-w-screen-xl mx-auto">
+      <R_logo />
+      <div className="flex gap-4 pointer-events-auto">
+       <Sun_svg />
+       <Moon_svg />
+        <a href="tel:9824989238">
+        < Phone_svg />
+        </a>
+        <a
+          href="https://wa.me/9824989238?text=Hi, How are you?"
+          target="_blank"
+        >
+         < Whatsapp_svg />
+        </a>
+      </div>
+    </header>
+    <div className="absolute inset-0 hidden md:block" id="wrapper-canvas" />
+    <div className="flex -mt-10 relative">
+      <div className="w-full px-4 max-w-screen-xl mx-auto">
+        < A_Logo_svg />
+        <div className="relative ml-4 md:ml-12">
+          <h1 className="pointer-events-none text-4xl md:text-[64px] font-['Spartan'] mr-12">
+            Amit Kumar
+          </h1>
+          <p className="pointer-events-none font-['Merriweather'] italic my-4 md:my-8">
+            React Developer
+          </p>
+          <button className="bg-[#4595eb] py-2 px-5 rounded font-extrabold bg-gradient-to-l from-[#1595b6] to-[#1f2667e6] relative hover:scale-110 ease-in-out duration-100 group">
+            About Me
+            <Arrow_svg  className="absolute top-1/2 -translate-y-1/2 -right-7 group-hover:-right-8 ease-in-out duration-100"/>
+          </button>
         </div>
       </div>
+      <ul className="ml-auto space-y-6 text-[#b0b2c3] absolute right-8">
+        <li>
+          <a href="https://www.linkedin.com/in/anuragsinghbam/" target="_blank">
+            <Linkedin_svg />
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/anuragsinghbam" target="_blank">
+           <X_svg />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/procodrr/">
+           <InstagramIcon/>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:anuragsinghbam@gmail.com" target="_blank">
+           <Email_svg />
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div className="relative self-center after:content-[''] after:absolute after:w-[2px] after:h-5 after:bg-[#444] after:left-1/2 after:-translate-x-1/2 after:top-[100px]">
+      <button className="bg-[#4595eb] py-2 px-5 rounded font-extrabold bg-gradient-to-l from-[#1595b6] to-[#1f2667e6] relative hover:scale-110 ease-in-out duration-100 group mb-20">
+        Latest Works
+        <Arrow_svg className="absolute rotate-90 left-1/2 -translate-x-1/2 top-11 group-hover:top-12 ease-in-out duration-100" />
+      </button>
+    </div>
+  </section>
+</>
 
-      <div className="chat-bubble">
-        <span>Chat with us</span>
-        <img src="" alt="Profile" className="chat-avatar" />
-      </div>
-    </section>
-    </>
   )
 }
 

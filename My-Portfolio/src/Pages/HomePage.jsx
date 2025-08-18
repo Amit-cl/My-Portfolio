@@ -20,11 +20,13 @@ const HomePage = () => {
       <div className="flex gap-4 pointer-events-auto">
        <Sun_svg />
        <Moon_svg />
-        <a href="tel:9824989238">
+       {/* give your phone number */}
+        <a href="tel:8468961606">
         < Phone_svg />
         </a>
+         {/* give your phone number */}
         <a
-          href="https://wa.me/9824989238?text=Hi, How are you?"
+          href="https://wa.me/8468961606?text=Hi, How are you?"
           target="_blank"
         >
          < Whatsapp_svg />
@@ -37,7 +39,7 @@ const HomePage = () => {
         < A_Logo_svg />
         <div className="relative ml-4 md:ml-12">
           <h1 className="pointer-events-none text-4xl md:text-[64px] font-['Spartan'] mr-12">
-            Amit Kumar
+              Rahul Das {/* Amit Kumar  */}
           </h1>
           <p className="pointer-events-none font-['Merriweather'] italic my-4 md:my-8">
             React Developer
@@ -50,22 +52,26 @@ const HomePage = () => {
       </div>
       <ul className="ml-auto space-y-6 text-[#b0b2c3] absolute right-8">
         <li>
-          <a href="https://www.linkedin.com/in/anuragsinghbam/" target="_blank">
+          {/* give Your linkedin profile url */}
+          <a href="https://www.linkedin.com/in/rahul-raj-91aa212a7/" target="_blank">
             <Linkedin_svg />
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/anuragsinghbam" target="_blank">
+          {/* add your x or twitter account */}
+          <a href="http://x.com/RahulDas_Coder" target="_blank">
            <X_svg />
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/procodrr/">
+          {/* add your x or instagram account */}
+          <a href="https://www.instagram.com/yodha_st/" target='_blank'>
            <InstagramIcon/>
           </a>
         </li>
         <li>
-          <a href="mailto:anuragsinghbam@gmail.com" target="_blank">
+           {/* add your x or gmail account */}
+          <a href="mailto:rahul7488071@gmail.com" target="_blank">
            <Email_svg />
           </a>
         </li>

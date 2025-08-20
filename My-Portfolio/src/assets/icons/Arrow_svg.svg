@@ -17,10 +17,10 @@
             >
               <g transform="translate(0,-952.36218)">
                 <path
-                    textIndent= '0'
-                    textTransform = "none"
+                    textindent= '0'
+                    texttransform = "none"
                     direction = "ltr"
-                    blockProgression = "tb" 
+                    blockprogression = "tb" 
                     baselineShift = "baseline" 
                     color = "#000000"
                     enableBackground = "accumulate"

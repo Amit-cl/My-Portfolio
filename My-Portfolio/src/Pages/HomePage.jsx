@@ -11,6 +11,7 @@ import Linkedin_svg  from "./../assets/icons/linkedin_svg.svg?react"
 import X_svg from "./../assets/icons/X_svg.svg?react"
 import InstagramIcon from "./../assets/icons/InstagramIcon.svg?react"
 import Email_svg from "./../assets/icons/Email_svg.svg?react"
+import { NavLink } from 'react-router'
 const HomePage = () => {
   return (
     <>
@@ -44,10 +45,12 @@ const HomePage = () => {
           <p className="pointer-events-none font-['Merriweather'] italic my-4 md:my-8">
             React Developer
           </p>
+          <NavLink to="/about">
           <button className="bg-[#4595eb] py-2 px-5 rounded font-extrabold bg-gradient-to-l from-[#1595b6] to-[#1f2667e6] relative hover:scale-110 ease-in-out duration-100 group">
             About Me
             <Arrow_svg  className="absolute top-1/2 -translate-y-1/2 -right-7 group-hover:-right-8 ease-in-out duration-100"/>
           </button>
+          </NavLink>
         </div>
       </div>
       <ul className="ml-auto space-y-6 text-[#b0b2c3] absolute right-8">

@@ -11,6 +11,7 @@ import Linkedin_svg  from "./../assets/icons/linkedin_svg.svg?react"
 import X_svg from "./../assets/icons/X_svg.svg?react"
 import InstagramIcon from "./../assets/icons/InstagramIcon.svg?react"
 import Email_svg from "./../assets/icons/Email_svg.svg?react"
+import R_svg from "./../assets/images/Light_R_Logo_Image.svg?react"
 import { NavLink } from 'react-router'
 const HomePage = () => {
   return (
@@ -37,7 +38,20 @@ const HomePage = () => {
     <div className="absolute inset-0 hidden md:block" id="wrapper-canvas" />
     <div className="flex -mt-10 relative">
       <div className="w-full px-4 max-w-screen-xl mx-auto">
-        < A_Logo_svg />
+      <R_svg />
+
+
+
+
+
+
+
+
+
+
+
+
+
         <div className="relative ml-4 md:ml-12">
           <h1 className="pointer-events-none text-4xl md:text-[64px] font-['Spartan'] mr-12">
               Rahul Das {/* Amit Kumar  */}

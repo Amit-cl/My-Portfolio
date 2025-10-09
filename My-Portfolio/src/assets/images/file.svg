@@ -1,6 +1,6 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="100%" viewBox="0 0 416 432" enable-background="new 0 0 416 432" xml:space="preserve" className="pointer-events-none absolute top-0 left-1/2 -translate-y-[80px] sm:-translate-y-[180px] -translate-x-1/2 w-[300px] sm:w-[400px] md:w-[600px]">
-<path fill="#000000"  stroke="#1595B6" stroke-opacity="0.9" stroke-width="7"
+	 width="100%" viewBox="0 0 416 432" enable-background="new 0 0 416 432" xml:space="preserve" className="pointer-events-none absolute top-0 left-1/2 -translate-y-[80px] sm:-translate-y-[180px] -translate-x-1/2 w-[300px] sm:w-[400px] md:w-[650px]">
+<path fill="#000000" opacity="1.000000" stroke="none" 
 	d="
 M318.988068,337.338104 
 	C300.498474,337.340271 282.505157,337.248291 264.514404,337.421906 
@@ -44,7 +44,7 @@ M242.483414,192.031845
 	C199.173157,197.921432 209.830566,198.015503 220.486069,198.034256 
 	C228.116653,198.047668 235.392410,196.755600 242.483414,192.031845 
 z"/>
-<path fill="#000000"  stroke="#1595B6" stroke-opacity="0.9" stroke-width="4"
+<path fill="#000000" opacity="1.000000" stroke="none" 
 	d="
 M232.384155,58.328438 
 	C241.027405,52.846413 249.365356,47.562374 258.665314,41.668682 
@@ -56,7 +56,7 @@ M232.384155,58.328438
 	C183.596237,82.997200 201.850388,77.649460 218.602463,67.118088 
 	C223.112549,64.282768 227.587677,61.391823 232.384155,58.328438 
 z"/>
-<path fill= "#000000"  stroke="#25a3bfff" stroke-opacity="0.9" stroke-width="4"
+<path fill="#000000" opacity="1.000000" stroke="none" 
 	d="
 M183.853577,326.611633 
 	C185.529327,335.590332 180.850662,338.004883 173.377792,340.518433 
